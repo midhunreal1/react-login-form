@@ -1,0 +1,74 @@
+.pink-box {
+  height: 80%;
+  width: 80%;
+  background: #ad088c8e;
+  border-radius: 20px;
+  padding: -20px;
+  margin: 50px;
+  position: relative;
+}
+
+.human-image {
+  height: 75%;
+  position: absolute;
+  bottom: 0;
+  right: -10%;
+}
+.circle {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.left-circle img {
+  height: 100px;
+}
+
+.right-circle img {
+  height: 50px;
+}
+
+.left-circle {
+  left: -20px;
+  top: 400px;
+}
+
+.right-circle {
+  top: 30%;
+  right: -20px;
+}
+
+.box-text img {
+  height: 40px;
+}
+
+#email-input::placeholder {
+  font-size: 12px;
+  padding-left: 10px;
+}
+#password-input::placeholder {
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.google-btn img {
+  height: 16px;
+}
+.fb-btn img {
+  height: 16px;
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    border-radius: 20px;
+    width: 90%;
+    margin: 5% auto;
+    padding: 10% 15%;
+  }
+}
